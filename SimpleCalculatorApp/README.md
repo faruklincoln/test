@@ -1,7 +1,7 @@
 # Simple Calculator App
 
-This is a minimal Android application that performs addition of two numbers. The app does not require any special permissions or internet connectivity.
+This sample Android application performs basic arithmetic: addition, subtraction, multiplication and division. It requires no special permissions or internet connectivity.
 
 ## Building
 
-Use Android Studio to open the `SimpleCalculatorApp` folder as a project and build the app.
+Open the `SimpleCalculatorApp` directory with Android Studio and build the project. Unit tests covering the calculator logic are included and can be run with the Gradle `test` task.

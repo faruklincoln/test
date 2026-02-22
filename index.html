@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Sport Live Stream Channel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>All Sport Live Stream Channel</h1>
+        <p>Load sports streams from the ALL SPORT LIVE STREAM RapidAPI endpoint.</p>
+      </header>
+
+      <section class="controls">
+        <label for="apiKey">RapidAPI Key</label>
+        <input id="apiKey" type="password" placeholder="Enter x-rapidapi-key" />
+        <button id="loadBtn" type="button">Load Channels</button>
+      </section>
+
+      <section class="status" id="status">Enter your API key and load channels.</section>
+
+      <section class="content">
+        <aside>
+          <h2>Available Channels</h2>
+          <ul id="channelList"></ul>
+        </aside>
+        <section class="playerArea">
+          <h2>Player</h2>
+          <video id="player" controls playsinline></video>
+          <p id="selectedChannel">No channel selected.</p>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
